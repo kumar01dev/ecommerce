@@ -12,7 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 
 // app.use(cors());
 app.use(cors({
-  origin: 'https://ecommerce-frontend-two-delta.vercel.app', // Allow only your frontend
+  origin: 'https://ecommerce-frontend-two-delta.vercel.app', // Allow only your frontend domain while in production/deployment
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   credentials: true,
 }));
